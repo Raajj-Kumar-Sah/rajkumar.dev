@@ -1,7 +1,7 @@
 # 👨‍💻 Raj Kumar Sah — Software Engineer Portfolio
 
 🔗 **Portfolio:** https://rajkumar.dev  
-📄 **Resume:** https://drive.google.com/your-resume-link  
+📄 **Resume:** https://drive.google.com/Raj.pdf 
 📍 **Location:** India  
 💼 **Open to:** Software Engineer Intern / New Grad / Frontend / Full-Stack Roles  
 
