@@ -5,6 +5,14 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body, #root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 @layer base {
   :root {
     --background: 225 35% 11%;
