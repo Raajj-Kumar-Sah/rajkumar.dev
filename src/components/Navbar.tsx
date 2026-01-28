@@ -77,7 +77,7 @@ const Navbar: React.FC = () => {
             ))}
           </nav>
           <motion.a 
-            href="/public/raj-kumar-sah.pdf" 
+            href="/raj-kumar-sah.pdf" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="ml-5"
