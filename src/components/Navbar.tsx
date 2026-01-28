@@ -134,7 +134,7 @@ const Navbar: React.FC = () => {
                 </motion.a>
               ))}
               <motion.a
-                href="/yanshi_k.pdf"
+                href="/RAJ.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn inline-block text-center mt-3"
