@@ -31,12 +31,12 @@ const ResumeModal = ({ isOpen, onClose }: ResumeModalProps) => {
               {/* Header */}
               <div className="flex justify-between items-center px-5 py-3 border-b border-slate/20">
                 <h2 className="text-lg font-semibold text-teal">
-                  Raj Kumar — Resume
+                  Raj Kumar Sah — Resume
                 </h2>
 
                 <div className="flex gap-2">
                   <a
-                    href="/raj-kumar-resume.pdf"
+                    href="/raj-kumar-sah-resume.pdf"
                     download
                     target="_blank"
                     rel="noopener noreferrer"
@@ -61,7 +61,7 @@ const ResumeModal = ({ isOpen, onClose }: ResumeModalProps) => {
 
               {/* PDF Preview */}
               <iframe
-                src="/raj-kumar-resume.pdf"
+                src="/raj-kumar-sah-resume.pdf"
                 className="w-full h-full"
                 title="Resume Preview"
               />
