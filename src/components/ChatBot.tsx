@@ -11,7 +11,7 @@ export default function ChatBot() {
   const [open, setOpen] = useState(false);
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState<Message[]>([
-    { role: "bot", text: "Currently Down 😔" },
+    { role: "bot", text: "Hii 👋 I'm Raj Assistant" },
   ]);
   const [loading, setLoading] = useState(false);
 
