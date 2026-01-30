@@ -1,18 +1,25 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const genAI = new GoogleGenerativeAI(
-  import.meta.env.VITE_GEMINI_API_KEY as string
-);
-
 export const sendMessageToGemini = async (
   message: string
 ): Promise<string> => {
-  const model = genAI.getGenerativeModel({
-    model: "gemini-1.5-flash",
-  });
+  try {
+    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
 
-  const result = await model.generateContent(message);
-  const response = await result.response;
+    if (!apiKey) {
+      throw new Error("Missing Gemini API Key");
+    }
 
-  return response.text();
+    const genAI = new GoogleGenerativeAI(apiKey);
+
+    const model = genAI.getGenerativeModel({
+      model: "gemini-1.5-flash", // ✅ Works with latest SDK (v1 API)
+    });
+
+    const result = await model.generateContent(message);
+    return result.response.text();
+  } catch (error) {
+    console.error("Gemini API Error:", error);
+    return "⚠️ AI service is temporarily unavailable. Please try again.";
+  }
 };
