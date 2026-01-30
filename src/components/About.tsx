@@ -150,7 +150,7 @@ const About: React.FC = () => {
               <div className="absolute inset-0 bg-teal/20 group-hover:opacity-0 transition-opacity duration-300 z-10"></div>
               <img 
                 // src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" 
-                src="/upload/about.png"
+                src="/upload/about2.png"
                 alt="Raj Kumar Sah" 
                 className="w-full h-auto rounded-md transition-transform duration-300 group-hover:scale-105"
               />
