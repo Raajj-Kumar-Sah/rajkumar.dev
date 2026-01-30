@@ -66,7 +66,7 @@ User question: ${input}`
   console.error("Gemini API Error 👉", error);
   setMessages((prev) => [
     ...prev,
-    { role: "bot", text: "Sorry, I'm Currently Working on it." },
+    { role: "bot", text: "Sorry, Unavailable right Now." },
   ]);
 }
 
