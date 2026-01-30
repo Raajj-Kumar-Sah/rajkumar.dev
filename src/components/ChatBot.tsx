@@ -11,7 +11,7 @@ export default function ChatBot() {
   const [open, setOpen] = useState(false);
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState<Message[]>([
-    { role: "bot", text: "Hi 👋 I’m R.K’s AI assistant. How can I help you?" },
+    { role: "bot", text: "Currently Down 😔" },
   ]);
   const [loading, setLoading] = useState(false);
 
@@ -66,7 +66,7 @@ User question: ${input}`
   console.error("Gemini API Error 👉", error);
   setMessages((prev) => [
     ...prev,
-    { role: "bot", text: "Sorry, something went wrong." },
+    { role: "bot", text: "Sorry, I'm Currently Working on it." },
   ]);
 }
 
