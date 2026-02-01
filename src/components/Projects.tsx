@@ -156,7 +156,7 @@ const Projects: React.FC = () => {
       technologies: ["React.js", "Redux", "Node.js", "Express.js", "MongoDB"],
       githubUrl: "//https://github.com/Raajj-Kumar-Sah/cart",
       demoUrl: "https://fusion-cart-frontend.vercel.app/",
-      imageUrl: "/lovable-uploads/8417a850-0ff5-485c-b7cc-2304fdc9ab7f.png",
+      imageUrl: "/uploads/1f4f5f6e-3f3b-4e2e-999b-8d6a5c4f6e2e7b8c.png",
       timeline: "September 2024 - November 2024",
       reverse: true
     },
@@ -171,7 +171,7 @@ const Projects: React.FC = () => {
       technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT"],
       githubUrl: "//https://github.com/Raajj-Kumar-Sah/getaway",
       demoUrl: "https://hotel-booking-site-frontend.vercel.app/",
-      imageUrl: "/lovable-uploads/c8eea761-70a3-4062-8536-6b425f484e63.png",
+      imageUrl: "/uploads/c8eea761-70a3-4062-8536-6b425f484e63.png",
       timeline: "April 2024 - June 2024",
       reverse: false
     }
