@@ -10,56 +10,55 @@ interface Certification {
   credentialUrl: string;
   skills: string[];
 }
-
 const certifications: Certification[] = [
   {
     title: "Oracle Cloud Infrastructure 2025 AI Foundations Associate",
     issuer: "Oracle",
     issued: "2025",
-    image: "/certifications/oracle-ai.png",
-    credentialUrl: "#",
+    image: "/certifications/oracle-ai.jpg",
+    credentialUrl: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=FE076E9D7DB2C1110A03DC975115D84D56915753325CD122FD21E5C0B4845503",
     skills: ["OCI", "Artificial Intelligence", "Machine Learning"],
   },
   {
     title: "Cisco Networking Basics",
     issuer: "Cisco",
     issued: "2025",
-    image: "/certifications/cisco.png",
-    credentialUrl: "#",
+    image: "/certifications/image.png",
+    credentialUrl: "https://www.credly.com/badges/0ed8b549-1667-4916-a4c4-f2b59d7b60a6",
     skills: ["Networking", "TCP/IP", "Routing"],
   },
+  // {
+  //   title: "AWS Academy Cloud Foundations",
+  //   issuer: "Amazon Web Services",
+  //   issued: "2025",
+  //   image: "/certifications/aws.jpg",
+  //   credentialUrl: "#",
+  //   skills: ["AWS", "Cloud", "EC2"],
+  // },
   {
-    title: "AWS Academy Cloud Foundations",
-    issuer: "Amazon Web Services",
-    issued: "2025",
-    image: "/certifications/aws.png",
-    credentialUrl: "#",
-    skills: ["AWS", "Cloud", "EC2"],
+    title: "Artificial intelligence and Machine learning Intern",
+    issuer: "YBI Foundation",
+    issued: "2024",
+    image: "/certifications/AI.jpg",
+    credentialUrl: "https://www.ybifoundation.org/certificate-validation?credentialId=N8YPNQAJPODFT",
+    skills: ["Artificial Intelligence", "Machine Learning", "Python"],
   },
-  {
-    title: "Cybersecurity Job Simulation",
-    issuer: "Tata (Forage)",
-    issued: "2025",
-    image: "/certifications/tata.png",
-    credentialUrl: "#",
-    skills: ["IAM", "Cybersecurity", "Risk"],
-  },
-  {
-    title: "Google AI Essentials",
-    issuer: "Google",
-    issued: "2025",
-    image: "/certifications/google-ai.png",
-    credentialUrl: "#",
-    skills: ["Prompt Engineering", "GenAI"],
-  },
-  {
-    title: "Salesforce AI Associate",
-    issuer: "Salesforce",
-    issued: "2025",
-    image: "/certifications/salesforce.png",
-    credentialUrl: "#",
-    skills: ["CRM", "Salesforce", "AI"],
-  },
+  // {
+  //   title: "Google AI Essentials",
+  //   issuer: "Google",
+  //   issued: "2025",
+  //   image: "/certifications/google-ai.jpg",
+  //   credentialUrl: "#",
+  //   skills: ["Prompt Engineering", "GenAI"],
+  // },
+  // {
+  //   title: "Salesforce AI Associate",
+  //   issuer: "Salesforce",
+  //   issued: "2025",
+  //   image: "/certifications/salesforce.jpg",
+  //   credentialUrl: "#",
+  //   skills: ["CRM", "Salesforce", "AI"],
+  // },
 ];
 
 export default function Certifications() {
