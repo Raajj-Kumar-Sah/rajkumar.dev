@@ -30,12 +30,12 @@ const Achievements: React.FC = () => {
     },
     {
       title: "OSCI 2025 Contributor",
-      description: "Contributed to the Open Source Connect India (OSCI) 2025 by successfully completing 5 tasks and earning the OSCI Contributor Badge.",
+      description: "Contributed to the Open Source Connect India (OSCI) 2025 by successfully completing tasks and earning the OSCI Contributor Badge.",
       icon: <Code size={24} />
     },
     {
       title: "Problem Solving",
-      description: "Solved over 500+ DSA questions on platforms including LeetCode (Highest Rating: 1667)",
+      description: "Solved over 500+ DSA questions on platforms including LeetCode.",
       icon: <Award size={24} />
     },
     {
@@ -45,7 +45,7 @@ const Achievements: React.FC = () => {
     },
     {
       title: "Event Coordinator at IEEE Student Branch",
-      description: "Successfully coordinated events and activities for the IEEE Student Branch, ensuring smooth execution and high participation.",
+      description: "Successfully coordinated Tech events and activities for the IEEE Student Branch, ensuring smooth execution and high participation.",
       icon: <Trophy size={24} />
     },
     {

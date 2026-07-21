@@ -7,44 +7,89 @@ const Skills: React.FC = () => {
   const sectionRef = useRef(null);
   const isInView = useInView(sectionRef, { once: true, amount: 0.2 });
   
-  const skillCategories = [
-    {
-      title: "Languages",
-      skills: ["C/C++", "Java", "Python", "JavaScript", "HTML5", "CSS"]
-    },
-    {
-      title: "Technologies",
-      skills: ["Bootstrap", "ReactJS", "NodeJS", "ExpressJS", "REST API", "MongoDB", "MySQL", "NextJS", "Salesforce(CRM)", "Git", "Github"]
-    },
-    {
-      title: "Tools",
-      skills: ["Adobe Photoshop", "Postman", "Figma", "Canva", "draw.io", "Windows", "Unix/Linux"]
-    },
-    {
-      title: "Skills & Interests",
-      skills: ["Data Structures", "Algorithms", "API Integration", "Full-Stack Web Development", "Web Development", "Competitive Programming", "Open Source Contributions"]
-    },
-    {
-      title: "Operating Systems",
-      skills: ["Windows", "Linux", "Ubuntu"]
-    },
-    {
-      title: "Coursework",
-      skills: [
-        "Data Structures & Algorithms",
-        "Object-Oriented Programming",
-        "Database Management Systems",
-        "Operating Systems",
-        "Computer Networks",
-        "Software Engineering",
-        "Web Development",
-        "Machine Learning",
-        "Artificial Intelligence",
-        "Cloud Computing",
-        "Engineering Mathematics"
-      ]
-    }
-  ];
+const skillCategories = [
+  {
+    title: "Languages",
+    skills: [
+      "Java",
+      "C/C++",
+      "JavaScript",
+      "SQL",
+      "Python",
+      "HTML5",
+      "CSS3"
+    ]
+  },
+  {
+    title: "Frameworks & Technologies",
+    skills: [
+      "Spring Boot",
+      "Spring Security",
+      "Hibernate",
+      "React",
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "Bootstrap"
+    ]
+  },
+  {
+    title: "Databases",
+    skills: [
+      "MySQL",
+      "MongoDB"
+    ]
+  },
+  {
+    title: "Tools & Platforms",
+    skills: [
+      "Git",
+      "GitHub",
+      "Maven",
+      "Postman",
+      "Docker",
+      "Figma",
+      "Canva",
+      "draw.io",
+      "Cisco Packet Tracer",
+      
+    ]
+  },
+  {
+    title: "Operating Systems",
+    skills: [
+      "Windows",
+      "Linux",
+      "Ubuntu"
+    ]
+  },
+  {
+    title: "Core Skills",
+    skills: [
+      "Data Structures & Algorithms",
+      "Object-Oriented Programming",
+      "API Integration",
+      "Full-Stack Web Development",
+      "Open Source Contributions"
+    ]
+  },
+  {
+    title: "Coursework",
+    skills: [
+      "Data Structures & Algorithms",
+      "Object-Oriented Programming",
+      "Database Management Systems",
+      "Operating Systems",
+      "Computer Networks",
+      "Software Engineering",
+      "Web Development",
+      "Machine Learning",
+      "Artificial Intelligence",
+      "Cloud Computing",
+      "Engineering Mathematics"
+    ]
+  }
+];
 
   const containerVariants = {
     hidden: { opacity: 0 },

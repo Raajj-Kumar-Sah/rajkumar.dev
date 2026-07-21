@@ -8,6 +8,9 @@ import Achievements from '../components/Achievements';
 import Experience from '../components/Experience';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import Certification from '../components/Certification';
+
+import { useToast } from '@/components/ui/use-toast';
 import { motion, useScroll } from 'framer-motion';
 
 const Index = () => {
@@ -46,6 +49,11 @@ const Index = () => {
 
       <section id="skills">
         <Skills />
+      </section>
+
+
+       <section id="certification">
+        <Certification />
       </section>
 
       <section id="achievements">

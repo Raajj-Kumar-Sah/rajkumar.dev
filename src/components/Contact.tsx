@@ -99,14 +99,14 @@ const Contact: React.FC = () => {
                 </a>
 
                 <a
-                  href="https://leetcode.com/u/rajkumar68580"
+                  href="https://leetcode.com/u/rajkumar7188/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-slate hover:text-teal transition-colors"
                 >
                   <Code className="mr-3" size={20} />
                   <span className="text-sm">
-                    leetcode.com/u/rajkumar68580
+                    leetcode.com/u/rajkumar7188
                   </span>
                 </a>
               </div>
