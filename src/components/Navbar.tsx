@@ -90,7 +90,7 @@ const Navbar: React.FC = () => {
             </nav>
 
             <motion.a
-              href="/raj-kumar-sahh.pdf"
+              href="/Raj_Kumar_Sah_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="ml-5"
@@ -156,7 +156,7 @@ const Navbar: React.FC = () => {
               ))}
 
               <motion.a
-                href="/raj-kumar-sahh.pdf"
+                href="/Raj_Kumar_Sah_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-6 text-center border border-teal text-teal py-2 rounded-lg hover:bg-teal/10"
